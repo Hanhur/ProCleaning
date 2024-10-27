@@ -174,6 +174,10 @@ body
     border: 1px solid var(--grey-2);
 }
 /* ================================ Service ========================== */
+.cleaning-block
+{
+    margin-bottom: 70px;
+}
 .cleaning-service
 {
     display: flex;
@@ -247,4 +251,53 @@ body
     color: var(--white);
     background-color: var(--green);
     border: 1px solid var(--green);
+}
+/* ============================== Professional ============================ */
+.section-professional
+{
+    padding-top: 100px;
+}
+.professional-title
+{
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--black);
+}
+.professional-text
+{
+    color: var(--grey-2);
+    line-height: 2;
+    width: 553px;
+    margin-bottom: 60px;
+}
+.professional-block
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+.professional-box
+{
+    /* border: 1px solid tomato; */
+    padding: 48px 40px 65px 32px;
+}
+.professional-img
+{
+    width: 72px;
+    margin-bottom: 24px;
+}
+.professional_title
+{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    white-space: nowrap;
+}
+.professional_text
+{
+    width: 240px;
+    color: var(--grey-2);
 }
