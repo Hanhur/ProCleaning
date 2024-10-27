@@ -71,12 +71,12 @@ body
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px 0;
 }
 .logo
 {
     display: flex;
     align-items: center;
-    padding: 24px 0;
     gap: 0 8px;
 }
 .logo-span
@@ -113,4 +113,62 @@ body
     padding: 12px 32px;
     color: var(--white);
     background-color: var(--green);
+}
+/* ================================== Hero ================================= */
+.section-services
+{
+    background-image: url(../img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 675px;
+}
+.services-block
+{
+    padding-top: 130px;
+}
+.services_text
+{
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--black);
+    margin-bottom: 12px;
+}
+.services-title
+{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.1;
+    width: 610px;
+    margin-bottom: 24px;
+}
+.services-text
+{
+    font-size: 18px;
+    line-height: 2;
+    color: var(--grey-2);
+    width: 543px;
+    margin-bottom: 40px;
+}
+.services-box
+{
+    display: flex;
+    gap: 0 25px;
+}
+.services-btn
+{
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 17px 32px;
+    color: var(--white);
+    background-color: var(--green);
+}
+.services_btn
+{
+    font-weight: 600;
+    color: var(--black);
+    border-radius: 6px;
+    padding: 17px 32px;
+    border: 1px solid var(--grey-2);
 }
