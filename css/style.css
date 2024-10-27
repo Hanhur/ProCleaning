@@ -300,4 +300,19 @@ body
 {
     width: 240px;
     color: var(--grey-2);
+    margin-bottom: 25px;
+}
+.professional-btn
+{
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    border: 1px solid var(--grey-2);
+    border-radius: 6px;
+}
+.professional-btn:hover
+{
+    color: var(--white);
+    background-color: var(--green);
+    border: 1px solid var(--green);
 }
