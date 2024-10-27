@@ -274,15 +274,8 @@ body
 .professional-block
 {
     display: grid;
-    justify-content: center;
-    align-items: center;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
-}
-.professional-box
-{
-    /* border: 1px solid tomato; */
-    padding: 48px 40px 65px 32px;
 }
 .professional-img
 {
