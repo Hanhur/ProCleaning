@@ -370,6 +370,7 @@ body
     color: var(--white);
     background-color: var(--green);
     margin-bottom: 36px;
+    gap: 0 15px;
 }
 .prices-list
 {
